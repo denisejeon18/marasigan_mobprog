@@ -7,11 +7,11 @@ class NewsfeedScreen extends StatelessWidget {
    return ListView(
      children: const [
        NewsfeedCard(
-         userName: 'Kim Minji',
+         userName: 'Hanni Pham',
          postContent: 'Just enjoying my day! 💗',
          date: '2 hours ago',
          numOfLikes: 10,
-         profileImage: 'assets/images/profile_minji.jpg',
+         profileImage: 'assets/images/profile_hanni.jpg',
        ),
        NewsfeedCard(
          userName: 'Kim Minji',
